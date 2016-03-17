@@ -1,0 +1,15 @@
+<ion-view title="Update BloodLog">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <label class="item item-input">
+                <span class="input-label">Test:</span>
+                <input type="text" placeholder="Enter Test Result" name="test" id="test" ng-model="updateBloodLog.updateTest">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Test Date:</span>
+                <input type="date" placeholder="" name="date" id="date" ng-model="udateBloodLog.updateDate">
+            </label>
+        </form>
+        <button id="updateBloodLog-button3" class="button button-positive  button-block" ng-click="updateBloodLogCtrl.post()">Submit Update</button>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,15 @@
+<ion-view title="New log">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <label class="item item-input">
+                <span class="input-label">Test:</span>
+                <input type="text" placeholder="Enter Test Result" name="test" id="test" ng-model="newLogCtrl.addTest">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Test Date</span>
+                <input type="date" placeholder="" name="date" id="date" ng-model="newLogCtrl.addDate">
+            </label>
+        </form>
+        <button id="newLog-button2" class="button button-positive  button-block" ng-click="newlogCtrl.post()">Enter Log</button>
+    </ion-content>
+</ion-view>

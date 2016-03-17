@@ -1,0 +1,13 @@
+<ion-view title="Delete Bloodlog">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <form class="list"></form>
+            <label class="item item-input">
+                <span class="input-label">Date to Delete:</span>
+                <input type="date" placeholder="" name="date" id="date" ng-model="deleteBloodLog.delDate">
+            </label>
+        </form>
+        <button id="deleteBloodlog-button4" class="button button-positive  button-block" ng-click="deleteBloodLogCtrl.delete()">Delete Log</button>
+        <form class="list"></form>
+    </ion-content>
+</ion-view>
